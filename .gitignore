@@ -1,0 +1,42 @@
+# Python / Django
+__pycache__/
+*.pyc
+venv/
+/venv/
+db.sqlite3
+
+# Node / React / Build outputs
+node_modules/
+/node_modules/
+dist/
+/dist/
+build/
+/build/
+
+# Executáveis e Instaladores
+*.exe
+*.msi
+
+# Arquivos de ambiente (NUNCA ENVIAR PARA O GITHUB)
+.env
+.env.*
+*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
