@@ -1,0 +1,65 @@
+.licitacoes-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lista-licitacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.card-licitacao {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-licitacao h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.card-licitacao-detalhes p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.card-licitacao-detalhes p strong {
+    color: #555;
+}
+
+.card-licitacao-acoes {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+.card-licitacao-acoes button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.card-licitacao-acoes button:hover {
+    background-color: #2980b9;
+}
+
+.card-licitacao-acoes button:last-child {
+    background-color: #e74c3c;
+}
+.card-licitacao-acoes button:last-child:hover {
+    background-color: #c0392b;
+}
